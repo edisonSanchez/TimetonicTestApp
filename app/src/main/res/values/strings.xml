@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Timetonic Test App</string>
+    <string name="title_Login">Login</string>
+    <string name="text_login_button">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_fail_authentication">El usuario digitado no existe!</string>
+    <string name="text_error_login">Ocurrio un error en el proceso, intentalo mas tarde!</string>
+    <string name="text_error_email">Correo electronico invalido!</string>
+    <string name="text_error_password">Contraseña invalida!</string>
+    <string name="text_error_token">Ocurrio un error obteniendo el session token, intentalo mas tarde!</string>
+    <string name="text_error_get_books">Ocurrio un error obteniendo los libros, intentalo mas tarde!</string>
+</resources>

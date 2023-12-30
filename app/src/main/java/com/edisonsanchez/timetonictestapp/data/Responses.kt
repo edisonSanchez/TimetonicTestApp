@@ -1,7 +1,6 @@
 package com.edisonsanchez.timetonictestapp.data
 
 import com.google.gson.annotations.SerializedName
-import java.io.Serial
 
 data class ResponseOkCreateAppKey (
     var status: String,

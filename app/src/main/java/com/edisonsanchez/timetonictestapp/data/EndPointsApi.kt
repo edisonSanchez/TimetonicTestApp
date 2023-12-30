@@ -4,35 +4,33 @@ import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST
-import retrofit2.http.Path
-import java.io.InputStream
 
 interface EndPointsApi {
 
     @POST("api.php")
     @FormUrlEncoded
-    fun registrarAplicacion(@Field("version") version: String, @Field("req") requerimiento: String,
-                            @Field("appname") appname: String) : Call<ResponseOkCreateAppKey>
+    fun registrarAplicacion(@Field(PARAM_VERSION) version: String, @Field(PARAM_REQ) requerimiento: String,
+                            @Field(PARAM_APP_NAME) appname: String) : Call<ResponseOkCreateAppKey>
 
     @POST("api.php")
     @FormUrlEncoded
-    fun login(@Field("version") version: String, @Field("req") requerimiento: String,
-              @Field("login") email: String, @Field("pwd") password: String,
-              @Field("appkey") appKey: String) : Call<ResponseOkLogin>
+    fun login(@Field(PARAM_VERSION) version: String, @Field(PARAM_REQ) requerimiento: String,
+              @Field(PARAM_USER_LOGIN) email: String, @Field(PARAM_PASSWORD) password: String,
+              @Field(PARAM_APP_KEY) appKey: String) : Call<ResponseOkLogin>
 
     @POST("api.php")
     @FormUrlEncoded
-    fun createSessionKey(@Field("version") version: String, @Field("req") requerimiento: String,
-                         @Field("o_u") idUser: String, @Field("u_c") oauthUser: String,
-                         @Field("oauthkey") oauthKey: String,
-                         @Field("restrictions") restrictions : String)
+    fun createSessionKey(@Field(PARAM_VERSION) version: String, @Field(PARAM_REQ) requerimiento: String,
+                         @Field(PARAM_O_U) idUser: String, @Field(PARAM_U_C) oauthUser: String,
+                         @Field(PARAM_OAUTH_KEY) oauthKey: String,
+                         @Field(PARAM_RESTRICTIONS) restrictions : String)
     : Call<ResponseOkCreateSessionKey>
 
     @POST("api.php")
     @FormUrlEncoded
-    fun getAllBooks(@Field("version") version: String, @Field("req") requerimiento: String,
-                    @Field("o_u") oauthUser: String, @Field("u_c") oauthKey: String,
-                    @Field("sesskey") sessionKey: String) : Call<ResponseGetAllBooks>
+    fun getAllBooks(@Field(PARAM_VERSION) version: String, @Field(PARAM_REQ) requerimiento: String,
+                    @Field(PARAM_O_U) oauthUser: String, @Field(PARAM_U_C) oauthKey: String,
+                    @Field(PARAM_SESSKEY) sessionKey: String) : Call<ResponseGetAllBooks>
 
 
 }

@@ -10,4 +10,5 @@
     <string name="text_error_password">Contraseña invalida!</string>
     <string name="text_error_token">Ocurrio un error obteniendo el session token, intentalo mas tarde!</string>
     <string name="text_error_get_books">Ocurrio un error obteniendo los libros, intentalo mas tarde!</string>
+    <string name="text_button_ok">Aceptar</string>
 </resources>

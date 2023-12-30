@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="extra_large_margin">64dp</dimen>
+    <dimen name="large_margin">32dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="height_item_book">300dp</dimen>
+    <dimen name="width_line_item">2dp</dimen>
+    <dimen name="width_image_book">150dp</dimen>
+    <dimen name="height_image_book">200dp</dimen>
+    <dimen name="text_size_title">32sp</dimen>
+    <dimen name="text_size_button">16sp</dimen>
+    <dimen name="width_button_login">200dp</dimen>
+    <dimen name="padding_button">18dp</dimen>
+    <dimen name="text_size_name_book">20sp</dimen>
 
 </resources>

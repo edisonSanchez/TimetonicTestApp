@@ -9,9 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.edisonsanchez.timetonictestapp.R
 import com.squareup.picasso.Picasso
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
+
 
 class BooksAdapter(private val allBooks: Books, private val context: Context)
     : RecyclerView.Adapter<BooksAdapter.BooksViewHolder>() {

@@ -4,11 +4,11 @@
     <string name="text_login_button">Sign in</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
-    <string name="text_fail_authentication">El usuario digitado no existe!</string>
-    <string name="text_error_login">Ocurrio un error en el proceso, intentalo mas tarde!</string>
-    <string name="text_error_email">Correo electronico invalido!</string>
-    <string name="text_error_password">Contraseña invalida!</string>
-    <string name="text_error_token">Ocurrio un error obteniendo el session token, intentalo mas tarde!</string>
-    <string name="text_error_get_books">Ocurrio un error obteniendo los libros, intentalo mas tarde!</string>
+    <string name="text_fail_authentication">¡El usuario digitado no existe!</string>
+    <string name="text_error_login">¡Ocurrió un error en el proceso, inténtalo más tarde!</string>
+    <string name="text_error_email">¡Correo electrónico inválido!</string>
+    <string name="text_error_password">¡Contraseña inválida!</string>
+    <string name="text_error_token">¡Ocurrió un error con el session token, inténtalo más tarde!</string>
+    <string name="text_error_get_books">¡Ocurrió un error obteniendo los libros, inténtalo más tarde!</string>
     <string name="text_button_ok">Aceptar</string>
 </resources>

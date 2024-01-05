@@ -28,7 +28,7 @@ class BooksAdapter(private val allBooks: Books, private val context: Context)
         val currentBook = allBooks.books[position]
         holder.nameBook.text = currentBook.bookCode
         val pathImage = currentBook.ownerPrefs.oCoverImg
-        val urlImage = "https://timetonic.com/live$pathImage"
+        val urlImage = "https://timetonic.com/$pathImage"
         Picasso.get().load(urlImage).placeholder(R.mipmap.ic_launcher)
             .into(holder.imageBook)
     }

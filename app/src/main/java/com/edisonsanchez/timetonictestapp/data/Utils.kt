@@ -15,7 +15,7 @@ fun hideKeyBoard(context: Context, view: View) {
 }
 
 fun showSimpleAlertDialog(context: Context, message: String) {
-    val alertDialog = AlertDialog.Builder(context, )
+    val alertDialog = AlertDialog.Builder(context)
         .setMessage(message)
         .setPositiveButton(context.getString(R.string.text_button_ok)) { dialog, _ -> dialog.dismiss() }
         .create()
